@@ -1,7 +1,7 @@
 # TODO
 
 ## 供电
-- [ ] 短线（绿联 0.25m Micro-USB）到货后换上，检查 `vcgencmd get_throttled` 是否为 `0x0`，结果记入 `docs/troubleshooting.md` 第 5 条
+- [x] 用手机充电头 + 绿联 0.25m 短线供电，检查 `vcgencmd get_throttled` 是否为 `0x0`：已解决，见 `docs/troubleshooting.md` 第 5 条
 - [ ] 采购移动电源方案：2 节 18650 + 带开关的电池盒 + 2S 充电器或保护板 + 5V 3A 降压模块（树莓派用）+ 5～6V 5A 降压模块或 UBEC（舵机用）
 
 ## 树莓派
